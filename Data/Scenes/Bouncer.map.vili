@@ -1,0 +1,18 @@
+Meta:
+    name:"Bouncer"
+
+View:
+    size:1.25
+    position:
+        x:0.0
+        y:0.0
+        unit:"SceneUnits"
+    referential:"Center"
+
+GameObjects:
+    bouncer:
+        type:"Bouncer"
+        Requires:
+            size:
+                x:2
+                y:2

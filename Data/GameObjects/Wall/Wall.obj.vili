@@ -1,0 +1,7 @@
+Wall:
+    Script:
+        sources:[
+            "Data/GameObjects/Wall/Wall.lua",
+            "Data/Scripts/Utils.lua"
+        ]
+        priority: 0

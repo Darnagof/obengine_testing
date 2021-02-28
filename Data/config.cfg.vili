@@ -1,0 +1,31 @@
+Input:
+    game:
+        HUp:"Hold:Up"
+        HLeft:"Hold:Left"
+        HRight:"Hold:Right"
+        HDown:"Hold:Down"
+        PUp:"Pressed:Up"
+        PLeft:"Pressed:Left"
+        PRight:"Pressed:Right"
+        PDown:"Pressed:Down"
+        Reset:"Pressed:R"
+        Return:"Pressed:Return"
+        Space:"Pressed:Space"
+        LeftClick:"Pressed:LMB"
+        IdleSpace:"Idle:Space"
+        ReleasedSpace:"Released:Space"
+
+Debug:
+    logLevel: info
+
+Window:
+    Game:
+        fullscreen: false
+        width: 1270
+        height: 768
+        title: "Testing"
+
+Framerate:
+    framerateLimit: true
+    framerateTarget: 60
+    vsync: true

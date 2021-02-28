@@ -1,0 +1,21 @@
+Meta:
+    name:"Menu"
+
+View:
+    size:1.0
+    position:
+        x:0.0
+        y:0.0
+        unit:"SceneUnits"
+    referential:"TopLeft"
+
+GameObjects:
+    sceneSelector:
+        type:"SceneSelector"
+        Requires:
+            pScenes:[
+                "Bouncer",
+                "Tunneling",
+                "Sandbox",
+                "CollisionBenchmark"
+            ]

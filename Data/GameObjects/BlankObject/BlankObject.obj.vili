@@ -1,0 +1,4 @@
+BlankObject:
+    Script:
+        priority: 0
+        source:"Data/GameObjects/BlankObject/BlankObject.lua"

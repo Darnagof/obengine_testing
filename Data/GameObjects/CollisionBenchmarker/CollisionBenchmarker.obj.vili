@@ -1,0 +1,7 @@
+CollisionBenchmarker:
+    Script:
+        priority: 0
+        sources:[
+            "Data/GameObjects/CollisionBenchmarker/CollisionBenchmarker.lua",
+            "Data/Scripts/Utils.lua"
+        ]

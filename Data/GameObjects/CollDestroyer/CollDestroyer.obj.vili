@@ -1,0 +1,9 @@
+CollDestroyer:
+    Script:
+        priority: 0
+        sources:[
+            "Data/GameObjects/CollDestroyer/CollDestroyer.lua",
+            "Data/Scripts/Utils.lua"
+        ]
+
+

@@ -1,0 +1,6 @@
+Bouncer:
+    Script:
+        sources:[
+            "Data/GameObjects/Bouncer/Bouncer.lua",
+            "Data/Scripts/Utils.lua"
+        ]

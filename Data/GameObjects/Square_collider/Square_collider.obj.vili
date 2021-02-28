@@ -1,0 +1,9 @@
+Square_collider:
+    Script:
+        priority: 0
+        sources:[
+            "Data/GameObjects/Square_collider/Square_collider.lua",
+            "Data/Scripts/Utils.lua"
+        ]
+
+
