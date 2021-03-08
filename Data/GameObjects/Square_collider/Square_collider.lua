@@ -1,4 +1,6 @@
 function Local.Init(pos, size, color, angle, speed)
+    local angle = angle or 0
+    local speed = speed or 0
     -- SceneNode
     This.SceneNode:setPosition(obe.Transform.UnitVector(pos.x, pos.y, obe.Transform.Units.SceneUnits), obe.Transform.Referential.Center)
     -- Sprite
@@ -40,7 +42,6 @@ function Object:getPos()
 end
 
 function Object:destroy()
-    --print('Square_collider destroy!')
     Engine.Scene:removeSprite(Object.sprite:getId())
     Engine.Scene:removeCollider(Object.collider:getId())
     This:deleteObject()
