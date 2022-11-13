@@ -1,0 +1,13 @@
+id: "Testing"
+name: "Testing"
+version: "0.1.0"
+source: ""
+
+mounts:
+    scenes: "game://Data/Scenes"
+    objects: "game://Data/GameObjects"
+    scripts: "game://Data/Scripts"
+    sprites: "game://Data/Sprites"
+    #sounds: "game://Data/Sounds"
+
+obengine_version: "0.5.0"

@@ -1,4 +1,4 @@
 function Game.Start()
     -- Loads a Scene
-    Engine.Scene:loadFromFile("Data/Scenes/Menu.map.vili")
+    Engine.Scene:load_from_file("scenes://Menu.map.vili")
 end

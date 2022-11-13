@@ -11,12 +11,13 @@ Input:
         Reset:"Pressed:R"
         Return:"Pressed:Return"
         Space:"Pressed:Space"
-        LeftClick:"Pressed:LMB"
+        LeftClick:"Pressed:MouseButtonLeft"
         IdleSpace:"Idle:Space"
         ReleasedSpace:"Released:Space"
 
 Debug:
-    logLevel: info
+    Logging:
+        level: "Info"
 
 Window:
     Game:
